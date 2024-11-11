@@ -16,6 +16,6 @@ public class getMethod {
 
     System.out.println(mp.get("pak")); // Will return the value correspond to key Pakistan
 
-    System.out.println();
+    System.out.println(mp.getOrDefault("ina", null)); // Output: null bcoz if value not found to the correspond key
   }
 }
